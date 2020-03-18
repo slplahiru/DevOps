@@ -1,0 +1,70 @@
+[osboxes@osboxes ~]$ pwd
+/home/osboxes
+[osboxes@osboxes ~]$ pwd -L
+/home/osboxes
+[osboxes@osboxes ~]$ pwd -P
+/home/osboxes
+[osboxes@osboxes ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[osboxes@osboxes ~]$ ls -l
+total 32
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Desktop
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Documents
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Downloads
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Music
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Pictures
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Public
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Templates
+drwxr-xr-x. 2 osboxes osboxes 4096 Sep  9  2018 Videos
+[osboxes@osboxes ~]$ ls -al
+total 80
+drwx------. 15 osboxes osboxes 4096 Feb  3 18:12 .
+drwxr-xr-x.  4 root    root    4096 Sep  9  2018 ..
+-rw-r--r--.  1 osboxes osboxes   18 Apr 10  2018 .bash_logout
+-rw-r--r--.  1 osboxes osboxes  193 Apr 10  2018 .bash_profile
+-rw-r--r--.  1 osboxes osboxes  231 Apr 10  2018 .bashrc
+drwx------. 15 osboxes osboxes 4096 Feb  3 18:14 .cache
+drwxr-xr-x. 14 osboxes osboxes 4096 Feb  3 18:12 .config
+drwx------.  3 osboxes osboxes 4096 Sep  9  2018 .dbus
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Desktop
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Documents
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Downloads
+-rw-------.  1 osboxes osboxes   16 Sep  9  2018 .esd_auth
+-rw-------.  1 osboxes osboxes  624 Feb  3 18:12 .ICEauthority
+drwx------.  3 osboxes osboxes 4096 Sep  9  2018 .local
+drwxr-xr-x.  5 osboxes osboxes 4096 Feb  3 18:14 .mozilla
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Music
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Pictures
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Public
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Templates
+drwxr-xr-x.  2 osboxes osboxes 4096 Sep  9  2018 Videos
+[osboxes@osboxes ~]$ ls -a
+.              .bashrc  Desktop    .ICEauthority  Pictures
+..             .cache   Documents  .local         Public
+.bash_logout   .config  Downloads  .mozilla       Templates
+.bash_profile  .dbus    .esd_auth  Music          Videos
+[osboxes@osboxes ~]$ ls -lh
+total 32K
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Desktop
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Documents
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Downloads
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Music
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Pictures
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Public
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Templates
+drwxr-xr-x. 2 osboxes osboxes 4.0K Sep  9  2018 Videos
+[osboxes@osboxes ~]$ whoami
+osboxes
+[osboxes@osboxes ~]$ uname
+Linux
+[osboxes@osboxes ~]$ uname -s
+Linux
+[osboxes@osboxes ~]$ uname -r
+3.10.0-862.el7.x86_64
+[osboxes@osboxes ~]$ uname -v
+#1 SMP Fri Apr 20 16:44:24 UTC 2018
+[osboxes@osboxes ~]$ uname -n
+osboxes
+[osboxes@osboxes ~]$ 
+
+
